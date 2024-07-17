@@ -1,0 +1,93 @@
+.result-page {
+    background-image: url("../assets/images/stars-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.result {
+    margin-top: 4rem;
+}
+.result__title h2 {
+    color: #ffffff;
+    font-family: "PTbold", sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.result__text1 p {
+    font-family: "PT", sans-serif;
+    font-size: 0.875em;
+    color: #ffffff;
+    line-height: 18px;
+}
+
+.result__text1 span {
+    text-decoration: underline;
+}
+
+.result__text2 p {
+    color: #3bde7c;
+    font-family: "PTbold", sans-serif;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.result__text3 p {
+    background-color: #1c2741;
+    margin: 0 3rem 0 3rem;
+    padding: 1rem;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.5em;
+    letter-spacing: 2px;
+    line-height: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.result__timer p {
+    color: #3bde7c;
+    font-family: "PT", sans-serif;
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+.result__call-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb1b00;
+    margin: 1rem 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result__call-btn p {
+    color: #ffffff;
+    font-family: "RobotoBold", sans-serif;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+#timer {
+    font-size: 1.3em;
+    font-family: "PTbold", sans-serif;
+}
+
+.result__answer {
+    text-align: left;
+    margin-left: 3rem;
+    font-family: "PT", sans-serif;
+}
+
+.result__answer h2 {
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.result__answer p {
+    color: #ffffff;
+}

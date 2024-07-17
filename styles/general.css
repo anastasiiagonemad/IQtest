@@ -1,0 +1,7 @@
+body {
+    background-image: url("../assets/images/stars-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    margin: 0 auto;
+}

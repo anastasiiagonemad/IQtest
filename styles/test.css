@@ -1,0 +1,220 @@
+.test-page {
+    background-image: url("../assets/images/stars-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.answer__btn.button__checked {
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.answer__color.answer__color-checked,
+.answer__number.answer__number-checked {
+    border: 4px solid var(--text-color);
+}
+
+.next__test:hover {
+    background-color: var(--text-color);
+}
+
+.answer__btn {
+    border: 1px solid #ffffff;
+    margin-left: 15px;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*        QUESTION 1,2,3,4,5,9        */
+
+.test__all {
+    text-align: center;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "progress"
+        "title"
+        "answer"
+        "btn";
+    row-gap: 5rem;
+}
+
+progress {
+    width: 260px;
+    color: green;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+}
+
+.test__title p {
+    font-family: "PT", sans-serif;
+    color: #ffffff;
+    font-size: 1.125em;
+}
+
+.test__answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    text-align: start;
+    color: #ffffff;
+    font-family: "PT", sans-serif;
+    font-size: 1.125em;
+}
+
+.answer-2,
+.answer-3,
+.answer-4,
+.answer-5,
+.answer-6 {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+    text-align: start;
+    color: #ffffff;
+    font-family: "PT", sans-serif;
+    font-size: 1.125em;
+}
+
+.test-continue-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-area: "btn";
+}
+
+.test-continue-btn button {
+    width: 150px;
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    color: var(--button-text-color);
+    font-family: "Merriweather", sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+/*        QUESTION 6,7         */
+.test__answer-color {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    place-items: center;
+}
+
+.answer__color {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.answer__color-border {
+    border: 4px solid var(--text-color);
+}
+
+.answer__color:hover {
+    border: 4px solid var(--text-color);
+}
+.answer__grey {
+    background-color: #a8a8a8;
+}
+.answer__blue {
+    background-color: #0000a9;
+}
+.answer__green {
+    background-color: #00a701;
+}
+.answer__red {
+    background-color: #f60100;
+}
+.answer__yellow {
+    background-color: #fdff19;
+}
+.answer__brown {
+    background-color: #a95403;
+}
+.answer__black {
+    background-color: #000000;
+}
+.answer__purple {
+    background-color: #850068;
+}
+.answer__lightblue {
+    background-color: #46b2ac;
+}
+
+/*        QUESTION 8        */
+
+.answer__image img {
+    width: 250px;
+}
+
+.answer__image-numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.answer__number {
+    background-color: #ffffff;
+    margin-top: 2rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*        QUESTION 10        */
+
+.test__10-answer__image img {
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+/*        QUESTION 11        */
+
+.answer__image-numbers-star {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/*        LOADING...        */
+
+.test__loading-page-loader {
+    margin-top: 5rem;
+}
+
+.test__loading-page-text p {
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 0.875em;
+    font-family: "PT", sans-serif;
+}
+/*        RESULT        */

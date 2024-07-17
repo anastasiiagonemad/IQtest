@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/imports.css" />
+    <title>Test IQ</title>
+  </head>
+  <body>
+    <div class="main-page">
+      <header>
+        <input id="burger" type="checkbox" />
+
+        <label for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html">Информация о тесте</a></li>
+            <li class="start_test-btn"><a href="#">Пройти тест</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="main">
+          <div class="main__title">
+            <p>Пройдите точный и быстрый</p>
+            <h1>Тест на определение IQ</h1>
+          </div>
+          <div class="main__btn">
+            <button class="start_test-btn"><a href="#">Пройти тест</a></button>
+          </div>
+          <div class="main__text">
+            <p>
+              И получите рекомендации по развитию своего интеллекта <br />
+              <span>и улучшению финансового благосостояния и личной жизни</span>
+            </p>
+          </div>
+          <div class="main__arrow-btn">
+            <img src="assets/images/arrow.png" alt="arrow" />
+          </div>
+          <div class="main__text-end">
+            <p>Подробнее</p>
+          </div>
+        </div>
+        <div class="main__quote">
+          <div class="main__quote-img1">
+            <img src="assets/images/tags-up.png" alt="icon" />
+          </div>
+          <div class="main__quote-text">
+            <p>
+              Профессиональный IQ-тест позволяет не только определить
+              коэффициент вашего интеллекта, но и выработать список рекомендаций
+              для повышения этого показателя.
+            </p>
+          </div>
+          <div class="main__quote-img2">
+            <img src="assets/images/tags-down.png" alt="icon" />
+          </div>
+        </div>
+        <div class="main__start-test">
+          <div class="main__start-test_text">
+            <p>
+              Также по результатам теста
+              <span class="span_special-up">вы получите</span> подробные
+              <span class="span_special-up">советы</span> по определению
+              наиболее перспективной
+              <span class="span_special-up">для вашего типа</span>
+              <span class="span_special-low">интеллекта</span>
+              <span class="span_special-up">сферы деятельности</span>, которая
+              принесет вам скорейший финансовый результат.
+            </p>
+          </div>
+          <div class="main__start-test_img">
+            <img src="assets/images/brain-img2.png" alt="brain" />
+          </div>
+          <div class="main__start-test_btn">
+            <button class="start_test-btn"><a href="#">Пройти тест</a></button>
+          </div>
+        </div>
+        <div class="main__start2-test">
+          <div class="main__start2-test_text1">
+            <p>
+              Прохождение теста займет у вас не более
+              <span class="span_special-yellow">12 минут</span>, а его
+              <span class="span_special-m">результаты</span> вы сможете
+              <span class="span_special-yellow">использовать всю жизнь.</span>
+            </p>
+          </div>
+          <div class="main__start2-test_text2">
+            <p>
+              Профессиональная интерпретация и детально
+              <span class="span_special-m">проработанные рекомендации</span>
+              позволят вам качественно
+              <span class="span_special-m"
+                >изменить все аспекты своей жизни</span
+              >: от финансового до любовного.
+            </p>
+          </div>
+          <div class="main__start2-test_btn">
+            <button class="start_test-btn"><a href="#">Пройти тест</a></button>
+          </div>
+          <div class="main__year"></div>
+        </div>
+      </main>
+    </div>
+    <div class="test-page hidden">
+      <header>
+        <input class="input__burger" id="burger" type="checkbox" />
+        <label class="label__burger" for="burger">
+          <span class="span__burger"></span>
+          <span class="span__burger"></span>
+          <span class="span__burger"></span>
+        </label>
+        <nav class="nav__burger">
+          <div class="header__title">
+            <img src="assets/images/brain-img.png" alt="icon" />
+            <p>Тест на определение IQ</p>
+          </div>
+          <ul class="ul__burger">
+            <li class="li__burger"><a href="index.html">Главная</a></li>
+            <li class="li__burger">
+              <a href="index.html">Информация о тесте</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="test">
+          <div class="test__1 test__all">
+            <div class="test__1-progress">
+              <progress max="100" value="7"></progress>
+            </div>
+            <div class="test__1-title test__title">
+              <p>Ваш пол:</p>
+            </div>
+            <div class="test__1-answer test__answer">
+              <div class="test__1-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>Мужчина</p>
+              </div>
+              <div class="test__1-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>Женщина</p>
+              </div>
+            </div>
+            <div class="test__1-btn test-continue-btn">
+              <button class="next__test2 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__2 test__all hidden">
+            <div class="test__2-progress">
+              <progress max="100" value="14"></progress>
+            </div>
+            <div class="test__2-title test__title">
+              <p>Укажите ваш возраст:</p>
+            </div>
+            <div class="test__2-answer test__answer">
+              <div class="test__2-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>До 18</p>
+              </div>
+              <div class="test__2-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>От 18 до 28</p>
+              </div>
+              <div class="test__2-answer-3 answer-3">
+                <button class="answer__btn"></button>
+                <p>От 29 до 35</p>
+              </div>
+              <div class="test__2-answer-4 answer-4">
+                <button class="answer__btn"></button>
+                <p>От 36</p>
+              </div>
+            </div>
+            <div class="test__2-btn test-continue-btn">
+              <button class="next__test3 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__3 test__all hidden">
+            <div class="test__3-progress">
+              <progress max="100" value="21"></progress>
+            </div>
+            <div class="test__3-title test__title">
+              <p>Выберите лишнее:</p>
+            </div>
+            <div class="test__3-answer test__answer">
+              <div class="test__3-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>Дом</p>
+              </div>
+              <div class="test__3-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>Шалаш</p>
+              </div>
+              <div class="test__3-answer-3 answer-3">
+                <button class="answer__btn"></button>
+                <p>Бунгало</p>
+              </div>
+              <div class="test__3-answer-4 answer-4">
+                <button class="answer__btn"></button>
+                <p>Скамейка</p>
+              </div>
+              <div class="test__3-answer-5 answer-5">
+                <button class="answer__btn"></button>
+                <p>Хижина</p>
+              </div>
+            </div>
+            <div class="test__3-btn test-continue-btn">
+              <button class="next__test4 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__4 test__all hidden">
+            <div class="test__4-progress">
+              <progress max="100" value="28"></progress>
+            </div>
+            <div class="test__4-title test__title">
+              <p>
+                Продолжите числовой ряд: <br />
+                18 20 24 32
+              </p>
+            </div>
+            <div class="test__4-answer test__answer">
+              <div class="test__4-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>62</p>
+              </div>
+              <div class="test__4-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>48</p>
+              </div>
+              <div class="test__4-answer-3 answer-3">
+                <button class="answer__btn"></button>
+                <p>74</p>
+              </div>
+              <div class="test__4-answer-4 answer-4">
+                <button class="answer__btn"></button>
+                <p>57</p>
+              </div>
+              <div class="test__4-answer-5 answer-5">
+                <button class="answer__btn"></button>
+                <p>60</p>
+              </div>
+              <div class="test__4-answer-6 answer-6">
+                <button class="answer__btn"></button>
+                <p>77</p>
+              </div>
+            </div>
+            <div class="test__4-btn test-continue-btn">
+              <button class="next__test5 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__5 test__all hidden">
+            <div class="test__5-progress">
+              <progress max="100" value="35"></progress>
+            </div>
+            <div class="test__5-title test__title">
+              <p>Выберите цвет, который сейчас наиболее вам приятен:</p>
+            </div>
+            <div class="test__5-answer test__answer-color">
+              <div class="answer__grey answer__color"></div>
+              <div class="answer__blue answer__color"></div>
+              <div class="answer__green answer__color"></div>
+              <div class="answer__red answer__color"></div>
+              <div class="answer__yellow answer__color"></div>
+              <div class="answer__brown answer__color"></div>
+              <div class="answer__black answer__color"></div>
+              <div class="answer__purple answer__color"></div>
+              <div class="answer__lightblue answer__color"></div>
+            </div>
+            <div class="test__5-btn test-continue-btn">
+              <button class="next__test6 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__6 test__all hidden">
+            <div class="test__6-progress">
+              <progress max="100" value="42"></progress>
+            </div>
+            <div class="test__6-title test__title">
+              <p>
+                Отдохните пару секунд, еще раз выберите цвет, который сейчас
+                наиболее вам приятен:
+              </p>
+            </div>
+            <div class="test__6-answer test__answer-color">
+              <div class="answer__grey answer__color"></div>
+              <div class="answer__lightblue answer__color"></div>
+              <div class="answer__brown answer__color"></div>
+              <div class="answer__green answer__color"></div>
+              <div class="answer__black answer__color"></div>
+              <div class="answer__red answer__color"></div>
+              <div class="answer__purple answer__color"></div>
+              <div class="answer__yellow answer__color"></div>
+              <div class="answer__blue answer__color"></div>
+            </div>
+            <div class="test__6-btn test-continue-btn">
+              <button class="next__test7 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__7 test__all hidden">
+            <div class="test__7-progress">
+              <progress max="100" value="49"></progress>
+            </div>
+            <div class="test__7-title test__title">
+              <p>Какой из городов лишний?</p>
+            </div>
+            <div class="test__7-answer test__answer">
+              <div class="test__7-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>Вашингтон</p>
+              </div>
+              <div class="test__7-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>Лондон</p>
+              </div>
+              <div class="test__7-answer-3 answer-3">
+                <button class="answer__btn"></button>
+                <p>Париж</p>
+              </div>
+              <div class="test__7-answer-4 answer-4">
+                <button class="answer__btn"></button>
+                <p>Нью-Йорк</p>
+              </div>
+              <div class="test__7-answer-5 answer-5">
+                <button class="answer__btn"></button>
+                <p>Москва</p>
+              </div>
+              <div class="test__7-answer-6 answer-6">
+                <button class="answer__btn"></button>
+                <p>Оттава</p>
+              </div>
+            </div>
+            <div class="test__7-btn test-continue-btn">
+              <button class="next__test8 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__8 test__all hidden">
+            <div class="test__8-progress">
+              <progress max="100" value="56"></progress>
+            </div>
+            <div class="test__8-title test__title">
+              <p>Выберите правильную фигуру из четырёх пронумерованных.</p>
+            </div>
+            <div class="test__8-answer test__answer-img">
+              <div class="answer__image">
+                <img src="assets/images/test-img1.png" alt="logic-img" />
+              </div>
+              <div class="answer__image-numbers">
+                <div class="answer__number">1</div>
+                <div class="answer__number">2</div>
+                <div class="answer__number">3</div>
+                <div class="answer__number">4</div>
+              </div>
+            </div>
+            <div class="test__8-btn test-continue-btn">
+              <button class="next__test9 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__9 test__all hidden">
+            <div class="test__9-progress">
+              <progress max="100" value="63"></progress>
+            </div>
+            <div class="test__9-title test__title">
+              <p>Вам привычнее и важнее:</p>
+            </div>
+            <div class="test__9-answer test__answer">
+              <div class="test__9-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>Наслаждаться каждой минутой проведенного времени</p>
+              </div>
+              <div class="test__9-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>Быть устремленными мыслями в будущее</p>
+              </div>
+              <div class="test__9-answer-3 answer-3">
+                <button class="answer__btn"></button>
+                <p>Учитывать в ежедневной практивке прошлый опыт</p>
+              </div>
+            </div>
+            <div class="test__9-btn test-continue-btn">
+              <button class="next__test10 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__10 test__all hidden">
+            <div class="test__10-progress">
+              <progress max="100" value="70"></progress>
+            </div>
+            <div class="test__10-title test__title">
+              <p>
+                Какое определение по-Вашему, больше подходит к этому
+                геометрическому изображению:
+              </p>
+            </div>
+            <div class="test__10-answer__image">
+              <img src="assets/images/test-img2.png" alt="logic-img" />
+            </div>
+            <div class="test__10-answer test__answer">
+              <div class="test__10-answer-1 answer">
+                <button class="answer__btn"></button>
+                <p>Оно остроконечное</p>
+              </div>
+              <div class="test__10-answer-2 answer-2">
+                <button class="answer__btn"></button>
+                <p>Оно устойчиво</p>
+              </div>
+              <div class="test__10-answer-3 answer-3">
+                <button class="answer__btn"></button>
+                <p>Оно находится в состоянии равновесия</p>
+              </div>
+            </div>
+            <div class="test__10-btn test-continue-btn">
+              <button class="next__test11 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__11 test__all hidden">
+            <div class="test__11-progress">
+              <progress max="100" value="77"></progress>
+            </div>
+            <div class="test__11-title test__title">
+              <p>Вставьте подходящее число</p>
+            </div>
+            <div class="test__11-answer test__answer-img">
+              <div class="answer__image">
+                <img src="assets/images/test-img3.png" alt="logic-img" />
+              </div>
+              <div class="answer__image-numbers-star">
+                <div class="answer__number">34</div>
+                <div class="answer__number">36</div>
+                <div class="answer__number">53</div>
+                <div class="answer__number">44</div>
+                <div class="answer__number">66</div>
+                <div class="answer__number">42</div>
+              </div>
+            </div>
+            <div class="test__11-btn test-continue-btn">
+              <button class="next__test12 next__test">Далее</button>
+            </div>
+          </div>
+          <div class="test__loading-page test__all hidden">
+            <div>
+              <progress max="100" value="100"></progress>
+            </div>
+            <div class="test__loading-page test__title">
+              <p>Обработка результатов</p>
+            </div>
+            <div class="test__loading-page-loader">
+              <span class="loader"></span>
+            </div>
+            <div class="test__loading-page-text">
+              <p>Определение стиля мышления......</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="result-page hidden">
+      <header>
+        <input class="input__burger" id="burger" type="checkbox" />
+        <label class="label__burger" for="burger">
+          <span class="span__burger"></span>
+          <span class="span__burger"></span>
+          <span class="span__burger"></span>
+        </label>
+        <nav class="nav__burger">
+          <div class="header__title">
+            <img src="assets/images/brain-img.png" alt="icon" />
+            <p>ГОТОВО!</p>
+          </div>
+          <ul class="ul__burger">
+            <li class="li__burger"><a href="index.html">Главная</a></li>
+            <li class="li__burger">
+              <a href="index.html">Информация о тесте</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="result">
+          <div class="result__title">
+            <h2>Ваш резултат рассчитан:</h2>
+          </div>
+          <div class="result__text1">
+            <p>
+              <span>Вы относитесь к 3%</span> респондентов, чей уровень
+              интеллекта более чем на 15 пунктов отличается от среднего в
+              большую или меньшую сторону!
+            </p>
+          </div>
+          <div class="result__text2">
+            <p>Скорее получите свой результат!</p>
+          </div>
+          <div class="result__text3">
+            <p>
+              В целях защиты персональных данных результат теста, их подробная
+              интерпретация и рекомендации доступны в виде голосового сообщения
+              по звонку с вашего мобильного телефона
+            </p>
+          </div>
+          <div class="result__timer">
+            <p>
+              Звоните скорее, запись доступна всего
+              <span id="timer">10:00</span> минут
+            </p>
+          </div>
+          <div class="result__call-btn">
+            <img src="assets/images/call.png" alt="phone icon" />
+            <p>Позвонить и прослушать результат</p>
+          </div>
+          <div class="result__answer"></div>
+        </div>
+      </main>
+    </div>
+    <script src="./scripts/buttons.js"></script>
+    <script src="./scripts/resultPage.js"></script>
+  </body>
+</html>

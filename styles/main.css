@@ -1,0 +1,238 @@
+main {
+    margin-top: 30px;
+}
+
+.main {
+    background: url("../assets/images/brain.jpeg");
+    background-position: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+.main__title {
+    text-align: center;
+}
+.main__title p {
+    padding-top: 1.5rem;
+    font-size: 1.125em;
+    color: #ffffff;
+    font-family: "PT", sans-serif;
+}
+
+.main__title h1 {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 1.875em;
+    font-family: "Yeseva", sans-serif;
+    padding: 0 5rem 0 5rem;
+    line-height: 34.65px;
+}
+
+.main__btn {
+    padding-top: 167px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__btn button {
+    padding: 12px;
+    border-radius: 20px;
+    width: 189px;
+    border: none;
+    background-color: var(--text-color);
+}
+
+.main__btn a {
+    text-decoration: none;
+    color: var(--text2-color);
+    text-transform: uppercase;
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.875em;
+}
+
+.main__text {
+    text-align: center;
+    padding: 1rem 1.5rem 0 1.5rem;
+    line-height: 19px;
+    font-family: "PT", sans-serif;
+    font-size: 1.066em;
+}
+
+.main__text p {
+    color: var(--text-color);
+}
+
+.main__text span {
+    color: #ffffff;
+}
+
+.main__arrow-btn {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main__arrow-btn img {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 50px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.main__text-end {
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
+
+.main__text-end p {
+    color: #ffffff;
+    font-family: "PT", sans-serif;
+    font-size: 0.6em;
+}
+
+.main__quote {
+    background-image: url("../assets/images/stars1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.main__quote-img1 {
+    padding: 2rem 0 0 2rem;
+}
+
+.main__quote-text {
+    font-family: "Yeseva", sans-serif;
+    color: #ffffff;
+    font-size: 1.125em;
+    padding: 1rem 4.8rem 1rem 4.8rem;
+    text-align: center;
+}
+
+.main__quote-img2 {
+    display: flex;
+    justify-content: end;
+    padding: 0 2rem 3rem 0rem;
+}
+
+.main__start-test {
+    margin-top: -20px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.main__start-test_text {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.main__start-test_text p {
+    color: var(--text3-color);
+    font-family: "PT", sans-serif;
+    font-size: 1em;
+    line-height: 24px;
+}
+
+.span_special-up {
+    text-transform: uppercase;
+    font-family: "PTbold", sans-serif;
+}
+
+.span_special-low {
+    text-transform: lowercase;
+    font-family: "PTbold", sans-serif;
+}
+
+.main__start-test_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.main__start-test_img img {
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.main__start-test_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.main__start-test_btn button {
+    margin-top: -50px;
+    padding: 12px;
+    border-radius: 20px;
+    width: 189px;
+    border: none;
+    background-color: var(--text-color);
+}
+
+.main__start-test_btn a {
+    text-decoration: none;
+    color: var(--text2-color);
+    text-transform: uppercase;
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.875em;
+}
+
+.main__start2-test {
+    margin-top: -20px;
+    background-image: url("../assets/images/stars-bg.jpeg");
+    height: auto;
+}
+
+.main__start2-test_text1 {
+    padding: 3rem 0 0 1rem;
+}
+
+.main__start2-test_text1 p {
+    color: #ffffff;
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.875em;
+    line-height: 20px;
+}
+
+.span_special-yellow {
+    color: var(--text-color);
+    font-family: "MerriweatherBold", sans-serif;
+}
+.span_special-m {
+    font-family: "MerriweatherBold", sans-serif;
+}
+.main__start2-test_text2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem 1rem 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.main__start2-test_text2 p {
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.875em;
+    line-height: 23px;
+}
+
+.main__start2-test_btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.main__start2-test_btn button {
+    background: none;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 50px;
+}
+.main__start2-test_btn a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Merriweather", sans-serif;
+}
